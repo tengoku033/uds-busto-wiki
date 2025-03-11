@@ -1,5 +1,5 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Garamond, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
 
 .maintitle {
     color: red;
-    font-size: 6vw;
+    font-size: 8vw;
 }
 
 .topbar a {
