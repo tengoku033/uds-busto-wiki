@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 19px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 
 .topbar.maintitle {
     color: red;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -48,7 +49,6 @@ body {
 
 .maincontent {
     text-align: left;
-    font-size: 15px;
 }
 
 .maincontent p{
@@ -58,7 +58,7 @@ body {
 .maincontent h3 {
     padding-left: 15%;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: red;
 }
 
