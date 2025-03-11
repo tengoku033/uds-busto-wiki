@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     align-items: center;
     gap: 10px; 
     font-size: 5vw; /* Adjusts size based on screen width */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .topbar.elements {
@@ -26,12 +28,12 @@ body {
     gap: 1px; 
     text-align: center;
     font-size: 4.5vw; 
-
 }
 
-.maintitle {
+.topbar.maintitle {
     color: red;
     font-size: 8vw;
+    font-weight: bold;
 }
 
 .topbar a {
@@ -44,4 +46,16 @@ body {
 .topbar a:hover {
     color:red;
     background: rgba(255, 255, 255, 0.2);
+}
+/*/ Add to dekstop /*/
+.maincontent {
+    padding-left: 15%;
+    text-align: left;
+    font-size: 3.8vw;
+}
+
+.maincontent h3 {
+    padding-top: 20px;
+    font-size: 5vw;
+    color: red;
 }

@@ -17,9 +17,10 @@ body {
     align-items: center;
     padding: 10px 15%;
     font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.maintitle {
+.topbar.maintitle {
     color: red;
     font-size: 28px;
     font-weight: bold;
@@ -31,7 +32,7 @@ body {
     gap: 40px;
 }
 
-.topbar.elements a {
+.topbar a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 20px;
@@ -44,3 +45,20 @@ body {
     color: red;
     background: rgba(255, 255, 255, 0.2);
 }
+
+.maincontent {
+    text-align: left;
+    font-size: 15px;
+}
+
+.maincontent p{
+    padding-left: 15%;
+}
+
+.maincontent h3 {
+    padding-left: 15%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: red;
+}
+
