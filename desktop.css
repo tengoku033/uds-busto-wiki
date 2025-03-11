@@ -27,6 +27,10 @@ body {
     font-weight: bold;
 }
 
+.topbar img {
+    width: 120px;
+}
+
 .topbar.elements {
     display: flex;
     flex-direction: row;
@@ -38,7 +42,7 @@ body {
     color: whitesmoke;
     font-size: 20px;
     transition: color 0.3s ease, background 0.3s ease;
-    padding: 8px 12px;
+    padding: 5px 8px;
     border-radius: 5px;
 }
 
