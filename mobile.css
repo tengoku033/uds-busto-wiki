@@ -10,7 +10,7 @@
 body {
     background-color: #1b1b1b;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
 }
 
 .topbar {
@@ -53,14 +53,11 @@ body {
 
 .maincontent {
     text-align: left;
-}
-
-.maincontent p{
-    padding-left: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .maincontent h3 {
-    padding-left: 15%;
     padding-top: 20px;
     font-size: 5vw;
     color: red;

@@ -28,7 +28,7 @@ body {
 }
 
 .topbar img {
-    width: 120px;
+    max-width: 120px;
 }
 
 .topbar.elements {
@@ -46,7 +46,7 @@ body {
     border-radius: 5px;
 }
 
-.topbar.elements a:hover {
+.topbar a:hover {
     color: red;
     background: rgba(255, 255, 255, 0.2);
 }
