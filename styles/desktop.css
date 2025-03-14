@@ -87,7 +87,7 @@ header {
 .riunionicard h1,
 .riunionicard ol,
 .riunionicard li {
-    color: #1b1b1b;; /* Inherit color from .riunionicard to avoid repetition*/
+    color: #1b1b1b; /* Inherit color from .riunionicard to avoid repetition*/
 }
 
 .riunionicard h2 {
