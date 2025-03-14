@@ -28,20 +28,15 @@ header {
 .topbar.maintitle {
     color: red;
     font-size: 40px;
+    padding-left: 0;
 }
 
 .topbar img {
     max-width: 120px;
 }
 
-.topbar.elements {
-    padding-left: 15%;
-    gap: 30px;
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+.topbar div{
+    padding-left: 11%;
 }
 
 .topbar a {
@@ -49,8 +44,7 @@ header {
     color: whitesmoke;
     font-size: 20px;
     transition: color 0.3s ease, background 0.3s ease;
-    padding: 10px 10px;
-    border-radius: 5px;
+    padding: 1.5%;
 }
 
 .topbar a:hover {
