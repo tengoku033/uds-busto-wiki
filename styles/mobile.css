@@ -64,6 +64,11 @@ header {
     color: red;
 }
 
+.subtitle {
+    font-size: 25px;
+    color:beige
+}
+
 .maincontent {
     text-align: left;
     padding-left: 8%;

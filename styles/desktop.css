@@ -1,8 +1,8 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding-left: 0;
     box-sizing: border-box;
     font-size: 19px;
 }
@@ -10,25 +10,24 @@
 body {
     background-color: #1b1b1b;
     margin: 0;
-    padding: 20px 10%; 
+    padding-left: 20%;
+    padding-top: 30px;
 }
 
 header {
     margin: 0;
-    padding: 0;
     position: relative; 
+    text-align: left;
 }
 
 .topbar {
-    padding-left: 15%;
-    padding-right: 15%;
     font-weight: bold;
+    text-align: left;
 }
 
 .topbar.maintitle {
     color: red;
     font-size: 40px;
-    align-items: center;
 }
 
 .topbar img {
@@ -36,12 +35,13 @@ header {
 }
 
 .topbar.elements {
+    padding-left: 15%;
     gap: 30px;
-    padding-left: 20%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
     display: flex;
     flex-direction: row;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
 }
 
 .topbar a {
@@ -49,26 +49,28 @@ header {
     color: whitesmoke;
     font-size: 20px;
     transition: color 0.3s ease, background 0.3s ease;
-    padding: 5px 8px;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 
 .topbar a:hover {
     color: red;
-    background: rgba(255, 255, 255, 0.2);
 }
-/*/ End top bar section /*/
+
+/* Page Title */
 .pagetitle {
     font-size: 60px;
-    padding-left: 15%;
-    padding-right: 15%;
     color: red;
 }
 
+.subtitle {
+    font-size: 25px;
+    color:beige
+}
+
+/* Main Content */
 .maincontent {
     text-align: left;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .maincontent h3 {
@@ -78,7 +80,24 @@ header {
 }
 
 .riunionicard {
+    display: inline-block;
+    padding: 10px 20px;
+    background: whitesmoke;
+    border-radius: 8px;
     text-align: left;
-    padding-left: 15%;
-    padding-right: 15%;
+    max-width: 80%;
+}
+
+.riunionicard h3{
+    font-size: 30px;
+    color:#1b1b1b;
+}
+
+.riunionicard h2{
+    color:#4d4c4c;
+    font-size: 15px;
+}
+
+.riunionicard p{
+    color:#1b1b1b;
 }
