@@ -1,0 +1,84 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+body {
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 20px 10%; 
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.topbar {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold;
+}
+
+.topbar.maintitle {
+    color: red;
+    font-size: 40px;
+    align-items: center;
+}
+
+.topbar img {
+    max-width: 120px;
+}
+
+.topbar.elements {
+    gap: 30px;
+    padding-left: 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    transition: color 0.3s ease, background 0.3s ease;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.topbar a:hover {
+    color: red;
+    background: rgba(255, 255, 255, 0.2);
+}
+/*/ End top bar section /*/
+.pagetitle {
+    font-size: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: red;
+}
+
+.maincontent {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.maincontent h3 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: red;
+}
+
+.riunionicard {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
