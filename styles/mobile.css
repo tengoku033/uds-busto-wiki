@@ -65,7 +65,7 @@ header {
 }
 
 .subtitle {
-    font-size: 25px;
+    font-size: 23px;
     color:beige
 }
 
@@ -79,4 +79,36 @@ header {
     padding-top: 20px;
     font-size: 5vw;
     color: red;
+}
+
+.riunionicard {
+    display: inline-block;
+    padding: 10px 20px;
+    background: whitesmoke;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 80%; 
+    margin-top: 5%;
+}
+
+.riunionicard h3,
+.riunionicard p,
+.riunionicard h1,
+.riunionicard ol,
+.riunionicard li {
+    color: #1b1b1b; /* Inherit color from .riunionicard to avoid repetition*/
+}
+
+.riunionicard h2 {
+    color: #4d4c4c; /* Specific color for h2 */
+    font-size: 15px;
+}
+
+.riunionicard h3 {
+    font-size: 30px;
+}
+
+.riunionicard ol {
+    font-size: 15px;
+    padding-left: 1%;
 }
