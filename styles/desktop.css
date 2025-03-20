@@ -80,6 +80,7 @@ header {
     border-radius: 8px;
     text-align: left;
     max-width: 80%; 
+    padding-right: 2.3%;
 }
 
 .card h3,
