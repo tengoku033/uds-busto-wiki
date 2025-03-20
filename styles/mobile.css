@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 body {
@@ -27,18 +27,10 @@ header {
     font-weight: bold;
 }
 
-.topbar.elements {
-    display: flex;
-    flex-direction: row;
-    gap: 2px; 
-    text-align: center;
-    font-size: 5.5vw; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .topbar.maintitle {
     color: red;
-    font-size: 10vw;
+    font-size: 7vw;
+    font-weight: bolder;
 }
 
 .topbar img {
@@ -58,15 +50,15 @@ header {
 }
 /*/ End top bar section /*/
 .pagetitle {
-    font-size: 60px;
+    font-size: 45px;
     padding-left: 15%;
     padding-right: 15%;
     color: red;
 }
 
 .subtitle {
-    font-size: 23px;
-    color:beige
+    font-size: 20px;
+    color:beige;
 }
 
 .maincontent {
@@ -89,6 +81,7 @@ header {
     text-align: left;
     max-width: 80%; 
     margin-top: 5%;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 .riunionicard h3,
@@ -111,4 +104,10 @@ header {
 .riunionicard ol {
     font-size: 15px;
     padding-left: 1%;
+}
+
+.riunionicard.shrink {
+    max-width: 40%; /* Shrink the card */
+    padding: 5px 10px; /* Reduce padding */
+    font-size: 0.8em; /* Reduce text size */
 }
