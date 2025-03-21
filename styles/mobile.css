@@ -72,7 +72,7 @@ header {
 .card {
     display: inline-block;
     padding: 20px 20px;
-    background: whitesmoke;
+    background: rgb(39, 41, 43);
     border-radius: 8px;
     text-align: left;
     width: 80%; 
@@ -85,11 +85,11 @@ header {
 .card h1,
 .card ol,
 .card li {
-    color: #1b1b1b; /* Inherit color from .card to avoid repetition*/
+    color: white; /* Inherit color from .card to avoid repetition*/
 }
 
 .card h2 {
-    color: #4d4c4c; 
+    color: rgb(184, 178, 160);
     font-size: 15px;
 }
 
@@ -99,7 +99,7 @@ header {
 
 .card ol {
     font-size: 15px;
-    padding-left: 1%;
+    padding-left: 5%;
 }
 
 .card.shrink {
@@ -111,14 +111,11 @@ header {
 .contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center elements horizontally */
-    gap: 15px;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    align-items: center;/* Center subtitle vertically with the images */
-    justify-content: center; 
-    width: 100%;
+    align-items: center; /* Center content */
+    gap: 5px;
+    padding: 5px;
+    position: relative; 
+    margin-top: 50px; 
 }
 
 .contacts .icons {
