@@ -1,7 +1,7 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Garamond, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     box-sizing: border-box;
     font-size: 3.5vw;
@@ -61,17 +61,13 @@ header {
     color:beige;
 }
 
-.maincontent {
-    text-align: left;
-    padding-left: 8%;
-    padding-right: 8%;
-}
 
 .maincontent h3 {
     padding-top: 20px;
     font-size: 5vw;
     color: red;
 }
+
 
 .card {
     display: inline-block;
@@ -93,7 +89,7 @@ header {
 }
 
 .card h2 {
-    color: #4d4c4c; /* Specific color for h2 */
+    color: #4d4c4c; 
     font-size: 15px;
 }
 
@@ -108,11 +104,35 @@ header {
 
 .card.shrink {
     max-width: 40%; /* Shrink the card */
-    padding: 5px 10px; /* Reduce padding */
+    padding: 5px 10px;
     font-size: 0.8em; /* Reduce text size */
 }
 
 .contacts {
     display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center elements horizontally */
+    gap: 15px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    align-items: center;/* Center subtitle vertically with the images */
+    justify-content: center; 
+    width: 100%;
+}
+
+.contacts .icons {
+    display: flex;
     flex-direction: row;
+    gap: 10px;
+}
+
+.contacts p {
+    color: red;
+    margin: 0; /* Removes excessive margin */
+}
+
+.contacts img {
+    width: 50px; 
+    height: 50px;
 }

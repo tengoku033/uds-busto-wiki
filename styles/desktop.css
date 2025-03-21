@@ -2,7 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
     margin: 2px;
-    padding-left: 0;
+    padding: 0;
     box-sizing: border-box;
     font-size: 22px;
 }
@@ -71,10 +71,6 @@ header {
     color: red;
 }
 
-.maincontent img {
-    height: 40px;
-}
-
 .card {
     display: inline-block;
     padding: 20px 20px;
@@ -110,4 +106,22 @@ header {
 .contacts {
     display: flex;
     flex-direction: row;
+    gap: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ensures it spans the full width */
+    padding: 10px; 
+    align-items: center;/* Center subtitle vertically with the images */
+    justify-content: center; 
+}
+
+.contacts p {
+    color: red;
+    margin: 0; /* Removes excessive margin */
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
 }
