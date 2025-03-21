@@ -32,7 +32,7 @@ header {
 }
 
 .topbar img {
-    max-width: 120px;
+    max-width: 120px; /*/Expand but not too much/*/
 }
 
 .topbar div {
