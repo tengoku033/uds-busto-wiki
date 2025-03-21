@@ -4,7 +4,7 @@
     margin: 2px;
     padding-left: 0;
     box-sizing: border-box;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 body {
@@ -58,19 +58,21 @@ header {
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 22px;
     color: beige;
 }
 
 /* Main Content */
-.maincontent {
-    text-align: left;
-}
+
 
 .maincontent h3 {
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: red;
+}
+
+.maincontent img {
+    height: 40px;
 }
 
 .card {
@@ -103,4 +105,9 @@ header {
 .card ol {
     font-size: 15px;
     padding-left: 1%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
 }

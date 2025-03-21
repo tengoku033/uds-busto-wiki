@@ -111,3 +111,8 @@ header {
     padding: 5px 10px; /* Reduce padding */
     font-size: 0.8em; /* Reduce text size */
 }
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
