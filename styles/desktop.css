@@ -60,13 +60,13 @@ header {
 .subtitle {
     font-size: 22px;
     color: beige;
+    padding-bottom: 20px;
 }
 
 /* Main Content */
 
 
 .maincontent h3 {
-    padding-top: 20px;
     font-size: 30px;
     color: red;
 }
@@ -113,7 +113,7 @@ header {
     margin-top: 50px; 
 }
 
-.contacts p {
+.contacts h3 {
     color: red;
     margin: 0; /* Removes excessive margin */
 }
@@ -121,4 +121,9 @@ header {
 .contacts img {
     width: 30px;
     height: 30px;
+}
+
+.contacts p {
+    color:rgb(175, 173, 173);
+    font-size: 15px;
 }

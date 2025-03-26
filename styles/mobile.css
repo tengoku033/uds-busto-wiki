@@ -59,11 +59,11 @@ header {
 .subtitle {
     font-size: 20px;
     color:beige;
+    padding-bottom: 20px;
 }
 
 
 .maincontent h3 {
-    padding-top: 20px;
     font-size: 5vw;
     color: red;
 }
@@ -124,12 +124,18 @@ header {
     gap: 10px;
 }
 
-.contacts p {
+.contacts h3 {
     color: red;
+    font-size: 23px;
     margin: 0; /* Removes excessive margin */
 }
 
 .contacts img {
-    width: 50px; 
-    height: 50px;
+    width: 35px; 
+    height: 35px;
+}
+
+.contacts p {
+    color:grey;
+    font-size: 15px;
 }
