@@ -126,8 +126,8 @@ header {
 
 .contacts h3 {
     color: red;
-    font-size: 23px;
     margin: 0; /* Removes excessive margin */
+    font-size: 20px;
 }
 
 .contacts img {
@@ -136,6 +136,6 @@ header {
 }
 
 .contacts p {
-    color:grey;
-    font-size: 15px;
+    color:rgb(175, 173, 173);
+    font-size: 12px;
 }
