@@ -10,7 +10,7 @@
 body {
     background-color: #1b1b1b;
     text-align: center;
-    padding: 3px;
+    padding: 1vw;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px; 
+    gap: 1vw; 
     font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ header {
 
 .topbar a {
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 1vw 1.5vw;
     border-radius: 5px;
     transition: background 0.3s ease;
 }
@@ -50,14 +50,14 @@ header {
 }
 /*/ End top bar section /*/
 .pagetitle {
-    font-size: 45px;
+    font-size: 10vw;
     padding-left: 15%;
     padding-right: 15%;
     color: red;
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 4vw;
     color:beige;
     padding-bottom: 20px;
 }
@@ -71,7 +71,7 @@ header {
 
 .card {
     display: inline-block;
-    padding: 20px 20px;
+    padding: 3vw 3vw;
     background: rgb(39, 41, 43);
     border-radius: 8px;
     text-align: left;
@@ -90,15 +90,15 @@ header {
 
 .card h2 {
     color: rgb(184, 178, 160);
-    font-size: 15px;
+    font-size: 2vw;
 }
 
 .card h3 {
-    font-size: 30px;
+    font-size: 5.3vw;
 }
 
 .card ol {
-    font-size: 15px;
+    font-size: 4vw;
     padding-left: 5%;
 }
 
@@ -112,8 +112,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content */
-    gap: 5px;
-    padding: 5px;
+    gap: 1vw;
+    padding: 1vw;
     position: relative; 
     margin-top: 50px; 
 }
@@ -121,21 +121,21 @@ header {
 .contacts .icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.5vw;
 }
 
 .contacts h3 {
     color: red;
     margin: 0; /* Removes excessive margin */
-    font-size: 20px;
+    font-size: 3vw;
 }
 
 .contacts img {
-    width: 35px; 
-    height: 35px;
+    width: 4vw; 
+    height: 4vw;
 }
 
 .contacts p {
     color:rgb(175, 173, 173);
-    font-size: 12px;
+    font-size: 2vw;
 }
